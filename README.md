@@ -2,7 +2,7 @@
 This is a script to use **FFMPEG** to convert videos to apple prores for use in video editors like **Davinci Resolve** on **Linux!**  This script will convert videos recursively in a directory.
 
 #### This script works for any video resolution 1080P and up!
-### This fork is for Useres of Fuji Cameras that save video files in the MOV container
+### This fork is for Useres of Fuji Cameras that save video files in the MOV container To avoid an endless loop a subfolder is created called Transcode.  all transcoded files will be stored there
 # How to use
 
 Create a folder named **bin** in your home directory and add it to your path in the **~/.bashrc** using the text below.
